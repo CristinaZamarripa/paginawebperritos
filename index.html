@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--Así se pone un comentario--> 
+
+<head>
+    <title>Página de Perritos labradores</title>
+    <link href="estilo.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Página de perros labradores</h1>
+    <h3>Imágenes de perritos</h3>
+
+    <!-- Insertar imagen desde la web-->
+    <img class="img1" src="https://www.elimparcial.com/__export/1554402143353/sites/elimparcial/img/2019/03/21/1986560-N.JPG_1902800913.jpg">
+
+    <!-- insertar imagen desde la compu-->
+    <img class="img2" src="imagenes/perritos.jpg">
+    <br>
+    <!-- Enlaces externos-->
+    <p><a href="https://www.istockphoto.com/es/fotos/cachorro-labrador" target="_blank">Más imágenes de perritos.</a></p>
+
+    <h3>Lista de colores de perros labradores</h3>
+    <p><strong>A continuación se mostrarán</strong></p>
+
+    <!--Lista ordenada-->
+    <ol>
+        <li>Labrador chocolate</li>
+        <li>Labrador negro</li>
+        <li>Labrador gris</li>
+        <li>Labrador amarillo</li>
+        <li>Labrador blanco</li>
+    </ol>
+
+    <!--Lista desordenada, la letra i es para cursiva-->
+    <p>Tres cosas que los labradores <i>aman.</i></p>
+    <ul>
+        <li>Comer</li>
+        <li>Jugar</li>
+        <li>Nadar</li>
+    </ul>
+
+    <!--Formulario-->
+    <form>
+        <!--Forms con botones de radio-->
+        <p>¿Tu perro es cachorro o adulto?</p>
+        <label>
+            <input id="cachorro" type="radio" value="cachorro" name="form-Perros" checked>Cachorro 
+        </label>
+            <br>
+        <label>
+            <input id="adulto" type="radio"
+            value="adulto"
+            name="form-Perros">Adulto
+        </label>
+
+        <!--Form con casillas de verificación / checks-->
+
+        <p>¿Qué tipo de personalidad tiene tu perrito?</p>
+        <label>
+            <input id="enojon" type="checkbox" value="enojon" name="personalidad" checked>Enojon 
+        </label>
+            <br>
+        <label> <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+        </label>
+        <label> <input id="energico" type="checkbox" value="energico" name="personalidad"Enérgico>
+        </label>
+    </form>
+</body>
+
+<footer>
+    <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank"><i>Tecnolochicas PRO.</i></a></small></p>
+</footer>

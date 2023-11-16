@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(221, 169, 169);
+    color: black;
+    font-family: 'Onest', sans-serif;
+}
+/*Asi se hace un comentario*/
+
+h1 , p{
+    color: rebeccapurple;
+}
+
+h3{
+    color: white;
+}
+
+.img1{
+    width: 800px;
+    height: 400;
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.img2{
+    width: 400px;
+    height: 350px;
+}
+
+footer{
+    background-color: whitesmoke;
+}
+
+small, a{
+    color: blueviolet;
+    padding-bottom: 60px;
+}
